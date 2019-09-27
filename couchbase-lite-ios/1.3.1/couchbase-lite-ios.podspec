@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage        = 'http://mobile.couchbase.com'
   s.summary         = 'An embedded syncable NoSQL database for iOS apps.'
   s.author          = 'Couchbase'
-  s.source          = { :http => 'http://latestbuilds.hq.couchbase.com/couchbase-lite-ios/1.3.1/ios/1.3.1-6/couchbase-lite-ios-community_1.3.1-6.zip' }
+  s.source          = { :http => 'https://packages.couchbase.com/releases/couchbase-lite/ios/1.3.1/couchbase-lite-ios-community_1.3.1-6.zip' }
   s.preserve_paths  = 'LICENSE.txt'
   s.ios.deployment_target = '7.0'
   s.frameworks      = 'CFNetwork', 'Security', 'SystemConfiguration', 'JavaScriptCore'
